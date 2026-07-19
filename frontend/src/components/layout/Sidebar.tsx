@@ -133,7 +133,7 @@ const Sidebar = ({ open }: Props) => {
             <Avatar
               src={
                 user?.profileImage
-                  ? `https://employee-management-backend-1am0.onrender.com${user.profileImage}`
+                  ? `http://localhost:5000${user.profileImage}`
                   : ""
               }
             >
