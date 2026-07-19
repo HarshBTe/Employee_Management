@@ -127,7 +127,7 @@ const Profile = () => {
             <Avatar
               src={
                 profile.profileImage
-                  ? `http://localhost:5000${profile.profileImage}`
+                  ? `https://employee-management-backend-1am0.onrender.com${profile.profileImage}`
                   : ""
               }
               sx={{
