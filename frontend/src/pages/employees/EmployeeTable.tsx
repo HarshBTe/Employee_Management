@@ -97,7 +97,7 @@ const EmployeeTable = ({
                     <Avatar
                       src={
                         employee.profileImage
-                          ? `http://localhost:5000${employee.profileImage}`
+                          ? `https://employee-management-backend-1am0.onrender.com${employee.profileImage}`
                           : ""
                       }
                     >
